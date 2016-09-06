@@ -4,7 +4,10 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="discription" content="土地と音楽を結びつけるサービスを公開中">
+    <meta name="keywords" content="音楽　土地, google map">
     <titel>成果物の紹介ページ</titel>
+    
     <!-- BootstrapのCSS読み込み -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <!-- jQuery読み込み -->
@@ -13,57 +16,78 @@
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="index.css">
   </head>
-    <body>
-      
-      <header>
-        <div id="logo">
-          <h1><img src="logo.png" alt="サービス名"><h1/>
-        <nav id="global_navi">
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li_class="current"><a href="portfolio.html" class="selected">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
+  
+  <body>
+    <header>
+　　　　<nav class="navbar navbar-default">
+　　　	　　<div class="container-fluid">
+		　　　　　<div class="navbar-header">
+			　　　　　　<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="site-menu">
+			　　　　　　　	<span class="sr-only">Toggle navigation</span>
+				　　　　　　　<span class="icon-bar"></span>
+			　　　　　　　	<span class="icon-bar"></span>
+				　　　　　　　<span class="icon-bar"></span>
+			　　　　　　</button>
+            　　　　<a class="navbar-brand" href="index.html">Portfolio</a>
+            　</div>
+            　
+            　<div class="collapse navbar-collapse" id="site-menu">
+			          <ul class="nav navbar-nav navbar-center">
+			           <li class="active"><a href="index.html">home</a></li>
+                  <li><a href="#">Muzip</a></li>
+                  <li><a href="#">Twitter clone</a></li>
+                  <li><a href="#">モノリスト</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+              </div>
+            </div>  
         </nav>
-      </header>
+    </header>
+    
     <!--wrapper-->
-    <div_id="wrapper"
+    <div id="wrapper">
       <!--メイン-->
-      <div_id=""main">
-        <div_id="breadcrumb">
-          <ol>
-            <li><a href="index.html">Home</a></li>
-            <li>About</li>
-          </ol>
-        </div>
+      <div id= "main">
         <article>
-          <h1>サービス紹介</h1>
-          <p_class="lead">このサービスは土地とその地に所縁のあるアーティストを結びつけ聴くことができるサービスです。</p>
-          <p>同時にその土地の思い出と音楽を結びつけ、また同じ土地に降り立ったときに過去に聞いた音楽を思い出とともに振り返ることができます。</p>
+        　<h1>About</h1>
           <section>
-            <h2>About</h2>
-            <section>
-              <h3>開発者について</h3>
-                <p>稗田 裕太郎</p>
-                <p>山口県長門市出身。某ITサービス企業で働いています。</p>
-                <p>最近、趣味でコードを学び始め<span class="red">Ruby on Rails</span> を使って土地と音楽を結びつける新サービスを開発しました。</p>
-                <p>音楽好き・旅好き・フェス好きな方は、
-                <a href="https://github.com/Yorke000">
-                <span class="glyphicon glyphicon-headphones" aria-hidden="true"></span>
-                </a>よりサービスを利用してみてください！</p>
-            </section>
+            <h2>開発者について</h2>
+              <h3>稗田 裕太郎</h3>
+              <p>山口県長門市出身。某ITサービス企業で働いています。</p>
+              <p>最近、趣味でコードを学び始め<span class="red">Ruby on Rails</span> を使って土地と音楽を結びつける新サービスを開発しました。</p>
           </section>
+          
+           <h2>サービス</h2>
+          <div class="container">
+            <div class="row">
+                <h3>Muzip</h3>
+                <img class="item img-responsive" src="twitter-c.jpg" alt="">
+                <p class="item"> このサービスは土地とその地に所縁のあるアーティストを結びつけ聴くことができるサービスです。</p>
+              </div>
+              <div class="col-md-6">
+                <h3>Twitter clone</h3>
+                <img class="item img-responsive" src="twitter-c.jpg" alt="">
+                <p class="item">twixxterをイメージしたサービスです。つぶやけます。</p>
+              </div>
+              <div class="col-md-6">
+                <h3>モノリスト</h3>
+                <img class="item img-responsive" src="twitter-c.jpg" alt="">
+                <p class="item">楽天市場の商品を検索し、自分が持っているもの・欲しい物を共有できるWebサービスです。</p>
+              </div>
+            </div>
+          
         </article>
       </div>
       <!--メイン-->
     </div>
+     <h3>Link</h3>
+          <ul>
+            <li><a href="https://github.com/show3">Github</a></li>
     </!--wrapper--> 
-     <div class="container">
-      <section>
-     
+    
      <footer>
       <small>&copy; 2016 Yorke000.</small>
       </footer>
     </div>
-    </body>
-  </html>
+  </body>
+</html>

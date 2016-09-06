@@ -23,13 +23,11 @@ nav ul li a {
   font-weight: bold;
 }
 
-nav ul li a.selected {
-  color: #000;
+div#wrapper{
+color: #888;
+text-align: center;
 }
 
 
-#main h1 {
-  letter-spacing: 0.15em;
-  color: #fff;
-  text-shadow: 1px 1px 0px #000;
-}
+
+
